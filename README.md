@@ -16,30 +16,6 @@
 
 ---
 
-## 🗂️ Project Structure
-
-```
-YeetCart/
-│
-├── app.py                # Flask app with all routes
-├── store.db              # SQLite database with customer, item, and order tables
-│
-├── /static
-│   ├── style.css         # All your CSS styles
-│   └── /img              # Product and site images (stored as file paths in DB)
-│
-├── /templates
-│   ├── layout.html       # Base layout with header/footer logic (Jinja2)
-│   ├── index.html        # Homepage showing all items
-│   ├── register.html     # Register new users
-│   ├── login.html        # Login form
-│   ├── item_detail.html  # Single item view with add-to-cart
-│   ├── cart.html         # View and manage cart
-│   ├── profile.html      # User info and password change
-│   ├── change_password.html
-│   ├── apology.html      # Error display page
-│   └── success.html      # Fake successful checkout screen
-```
 
 ---
 
